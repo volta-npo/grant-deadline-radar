@@ -1,0 +1,35 @@
+{
+  "name": "@volta-oss/grant-deadline-radar",
+  "version": "3.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A simple open calendar system for tracking grant deadlines, owner tasks, and student deliverables.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 4173",
+    "validate": "node --test",
+    "certify": "node --test test/v3.test.js",
+    "test:all": "node --test"
+  },
+  "keywords": [
+    "digital-equity",
+    "finance-grants",
+    "local-first",
+    "oss",
+    "v3-production",
+    "volta"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volta-npo/12-grant-deadline-radar.git"
+  },
+  "homepage": "https://volta-npo.github.io/12-grant-deadline-radar/",
+  "bugs": {
+    "url": "https://github.com/volta-npo/12-grant-deadline-radar/issues"
+  },
+  "author": "Volta OSS Division <volta.npo@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  }
+}
