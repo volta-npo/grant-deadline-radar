@@ -22,3 +22,8 @@ A simple open calendar system for tracking grant deadlines, owner tasks, and stu
 ## Privacy and retention
 
 Data is local-first. Export intentionally, store securely, and delete browser state after handoff if working on a shared device.
+
+
+## SaaS pilot operations
+
+Use the standalone SaaS command center to prepare Grant Deadline Radar for paid pilots and chapter-scale operations. Review account ownership, segment, plan, operating metrics, playbook status, automations, governance evidence, and roadmap phase before presenting the workspace as a standalone SaaS. Export the SaaS brief and operations CSV alongside the standard handoff packet.

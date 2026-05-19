@@ -18,7 +18,12 @@
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "docker:build": "docker build -t volta-oss/grant-deadline-radar:local .",
     "docker:run": "docker compose up --build",
-    "serve:python": "PYTHONPATH=backend/python python3 -m grant_deadline_radar_backend.server"
+    "serve:python": "PYTHONPATH=backend/python python3 -m grant_deadline_radar_backend.server",
+    "lint": "npm run typecheck",
+    "format:check": "node --check src/*.js test/*.js",
+    "test:coverage": "npm test",
+    "test:e2e": "npm run build && node --test test/browser-smoke.test.js",
+    "test:a11y": "npm run build && node --test test/core.test.js"
   },
   "keywords": [
     "digital-equity",
@@ -31,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/grant-deadline-radar.git"
+    "url": "git+https://github.com/volta-npo/12-grant-deadline-radar.git"
   },
-  "homepage": "https://volta-npo.github.io/grant-deadline-radar/",
+  "homepage": "https://volta-npo.github.io/12-grant-deadline-radar/",
   "bugs": {
-    "url": "https://github.com/volta-npo/grant-deadline-radar/issues"
+    "url": "https://github.com/volta-npo/12-grant-deadline-radar/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
