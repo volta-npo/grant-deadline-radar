@@ -36,11 +36,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/12-grant-deadline-radar.git"
+    "url": "git+https://github.com/volta-npo/grant-deadline-radar.git"
   },
-  "homepage": "https://volta-npo.github.io/12-grant-deadline-radar/",
+  "homepage": "https://volta-npo.github.io/grant-deadline-radar/",
   "bugs": {
-    "url": "https://github.com/volta-npo/12-grant-deadline-radar/issues"
+    "url": "https://github.com/volta-npo/grant-deadline-radar/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
